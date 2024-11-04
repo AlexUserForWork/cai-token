@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1400px;
+}
+.bg-img {
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-image: url("https://static.wixstatic.com/media/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png/v1/fill/w_1680,h_794,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png");
+}
+.big-section {
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/bigbg.png);
+}
+
+.back-token {
+    background-image: url(./assets//images/tokenomiks.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-footer {
+    background-image: url(./assets//images/tokenomiks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-background {
+    background: rgba(255, 255, 255, 0.796);
+}
+
+@media (max-width: 768px) {
+    .bg-img {
+        width: 100% !important;
+        height: 100% !important;
+        background-size: cover;
+        background-position: top;
+        background-image: url("https://static.wixstatic.com/media/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png/v1/fill/w_1680,h_794,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png");
+    }
+    .bg-btn {
+        background-size: cover !important;
+        background-image: url("https://static.wixstatic.com/media/7f442f_d5afd02ae64542079e6586c9f9fc2fc4~mv2.png/v1/fill/w_639,h_417,al_c,q_85,enc_auto/7f442f_d5afd02ae64542079e6586c9f9fc2fc4~mv2.png") !important;
+    }
+}
+
+.bg-btn {
+    background-size: 100% 100%;
+    background-image: url("https://static.wixstatic.com/media/7f442f_d5afd02ae64542079e6586c9f9fc2fc4~mv2.png/v1/fill/w_2192,h_230,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_d5afd02ae64542079e6586c9f9fc2fc4~mv2.png");
+}
+
+.bg-img1 {
+    background-size: cover;
+    background-image: url("https://static.wixstatic.com/media/7f442f_7bf369afffde4bf4a21bb8d16f6bab12~mv2.png/v1/fill/w_2192,h_1150,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_7bf369afffde4bf4a21bb8d16f6bab12~mv2.png") !important;
+}
+.bg-img2 {
+    background-size: 100% 100%;
+    background-image: url("https://static.wixstatic.com/media/7f442f_66765076b0824571ace802050215b807~mv2.png/v1/fill/w_2982,h_1416,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/Asset%2088_2x.png");
+}
+
+@keyframes shakeAndPause {
+    0%,
+    20% {
+        transform: rotate(1deg) translate(10, 10); /* Boshlang'ich holat */
+    }
+    50% {
+        transform: rotate(10deg) translate(-10px, -10px); /* Chap yuqoriga */
+    }
+    80% {
+        transform: rotate(-10deg) translate(10px, 10px); /* O'ng pastga */
+    }
+    100% {
+        transform: rotate(1deg) translate(10, 10); /* Qaytish */
+    }
+}
+
+.img {
+    animation: shakeAndPause 3s ease infinite; /* 2s harakat + 1s kutish */
+    animation-duration: 1s; /* Harakatlanish uchun 1 sekund */
+    animation-delay: 0s; /* Harakatni boshlanishi */
+}
+
+@keyframes bounceVertical {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+.animate-bounceVertical {
+    animation: bounceVertical 5s ease-in-out infinite;
+}
+@keyframes bounceVerticalmob {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+.animate-bounceVerticalmob {
+    animation: bounceVerticalmob 5s ease-in-out infinite;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.backtitle1 {
+    background-image: url(./assets/images/back1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.backtitle2 {
+    background-image: url(./assets/images/back2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* In your index.css or another relevant CSS file */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.6s ease-in-out; /* Adjust duration as needed */
+}
+
+@keyframes infinite-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg-img3 {
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: url("https://static.wixstatic.com/media/7f442f_3fb1ed924d6c4312b53fc07bcdc3501b~mv2.png/v1/fill/w_1671,h_5584,al_c,q_95,enc_auto/7f442f_3fb1ed924d6c4312b53fc07bcdc3501b~mv2.png");
+}
+
+.rotate-infinite {
+    animation: infinite-rotate 5s linear infinite; /* Adjust duration as needed */
+}
+
+.mySwipersecond {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-image {
+    filter: brightness(100%);
+}
+
+.carousel-image:hover {
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
+}
+
+@keyframes shakehead {
+    0% {
+        transform: rotate(0deg) translate(0, 0);
+    }
+    25% {
+        transform: rotate(1deg) translate(-3px, 2px);
+    }
+    50% {
+        transform: rotate(-1deg) translate(3px, -2px);
+    }
+    75% {
+        transform: rotate(1deg) translate(-3px, 1px);
+    }
+    100% {
+        transform: rotate(0deg) translate(0, 0);
+    }
+}
+
+.shakehead-animation {
+    animation: shake 1s ease-in-out infinite;
+}
