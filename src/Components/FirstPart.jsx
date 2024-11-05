@@ -29,23 +29,23 @@ const FirstPart = () => {
                     <div className="w-1/2 full flex flex-col justify-center py-10 lg:px-20">
                         <div
                             data-aos="flip-down"
-                            className="flex flex-col px-5"
+                            className="flex flex-col px-5 font-groboldov font-extrabold tracking-wide"
                         >
                             <img
                                 className="md:w-[350px] h-[200px]"
                                 src={Title}
                                 alt=""
                             />
-                            <p className="text-[24px] mb-10 font-bold">
-                                Ready to ride the KAI rocket? Zero <br /> taxes
+                            <p className="text-[20px] mb-10 ">
+                                Ready to ride the CAI rocket? Zero <br /> taxes
                                 and Infinite FUN! 100% trust with <br /> the
                                 liquidity pool BURNT to a crisp! <br /> HODL
                                 tight or FOMO later, cause this <br /> meme is
-                                taking off! Swap your ETH for <br /> $KAI and
+                                taking off! Swap your SOL for <br /> $CAI and
                                 join the moon mission!
                             </p>
                             <p className="text-[24px] font-bold mb-10">
-                                Let’s send KAI into orbit.
+                                Let’s send CAI into orbit.
                             </p>
                             <button className="relative w-[250px] h-auto group">
                                 <img
@@ -90,16 +90,16 @@ const FirstPart = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col">
-                    <p className="text-[14px] mb-5 font-bold px-5">
-                        Ready to ride the KAI rocket? Zero taxes and Infinite
+                <div className="flex flex-col font-luckiest ">
+                    <p className="text-[14px] mb-5 px-5">
+                        Ready to ride the CAI rocket? Zero taxes and Infinite
                         FUN! 100% trust with the liquidity pool BURNT to a
                         crisp! HODL tight or FOMO later, cause this meme is
-                        taking off! Swap your ETH for $KAI and join the moon
+                        taking off! Swap your SOL for $CAI and join the moon
                         mission!
                     </p>
                     <p className="text-[14px] font-bold px-5 mb-10">
-                        Let’s send KAI into orbit.
+                        Let’s send CAI into orbit.
                     </p>
                     <div className="flex justify-center w-full">
                         <button className="relative w-[170px] h-auto group">

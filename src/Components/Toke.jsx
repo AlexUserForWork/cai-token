@@ -12,7 +12,7 @@ import Star from "../assets/images/Asset 78_2x.png";
 const Toke = () => {
     return (
         <div className="w-full back-token min-h-[700px] overflow-hidden">
-            <div className="container mx-auto min-h-[700px] py-5 relative">
+            <div className="min-h-[700px] py-5 relative font-groboldov ">
                 <div data-aos="zoom-in" className="flex justify-center">
                     <img src={Title} className="h-[100px]" alt="" />
                 </div>
@@ -48,7 +48,7 @@ const Toke = () => {
                         </div>
                         <div className="absolute w-full h-full flex flex-col justify-center items-center">
                             <p className="text-[34px] font-bold text-[#299452]">
-                                69 Trillion %
+                                100M
                             </p>
                             <p className="text-[20px] font-bold">
                                 Total Supply

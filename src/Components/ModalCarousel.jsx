@@ -19,7 +19,7 @@ export default function MySwiper() {
     );
 
     return (
-        <div className="relative">
+        <div className="relative big-section">
             {/* Close button */}
             <button
                 onClick={() => navigate(-1)}
@@ -46,12 +46,12 @@ export default function MySwiper() {
                 {data.map((item, index) => (
                     <SwiperSlide
                         key={index}
-                        className="md:py-[100px] md:px-[500px]"
+                        className="md:py-[100px] md:px-[500px] "
                     >
                         <div className="h-full w-full flex justify-center items-center">
                             <img
                                 src={item.img}
-                                className="md:w-full md:h-full h-[300px] w-[300px] object-cover"
+                                className="md:w-full md:h-full h-[300px] w-[300px] object-cover rounded rounded-xl"
                                 alt={`Slide ${index + 1}`}
                             />
                         </div>

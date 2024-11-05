@@ -28,20 +28,20 @@ const Navbar = () => {
                     scroll ? "custom-background" : "bg-transparent"
                 } transition-all duration-300`}
             >
-                <div className="container flex h-full ">
+                <div className="container flex h-full font-groboldov">
                     <div className="w-full h-full flex justify-end">
-                        <ul className="w-full  h-full flex justify-end gap-6 items-center text-[20px]">
+                        <ul className="w-full  h-full flex justify-end gap-6 items-center text-[20px] pr-8">
                             <Link
                                 to={"/"}
                                 className={` ${
                                     currentUrl === "/"
                                         ? "border-[3px] rounded-[22px] border-black px-5 py-[3px] text-white bg-[#d36b0abe]"
                                         : "text-[#3A170D]"
-                                }  font-bold`}
+                                }  font-bold hover:text-green-400`}
                             >
                                 Home
                             </Link>
-                            <Link
+                            {/* <Link
                                 to="#about"
                                 className="rounded-[22px] px-5 py-[3px] text-[#3A170D] font-bold"
                             >
@@ -52,13 +52,13 @@ const Navbar = () => {
                             </li>
                             <li className="rounded-[22px] px-5 py-[3px] text-[#3A170D] font-bold">
                                 Token
-                            </li>
+                            </li> */}
                             <li
                                 className={` ${
                                     currentUrl === "/memo"
                                         ? "border-[3px] rounded-[22px] border-black px-5 py-[3px] bg-[#d36b0abe] text-white"
                                         : "text-[#3A170D]"
-                                }  font-bold`}
+                                }  font-bold hover:text-green-400`}
                             >
                                 <Link to={"/memo"}>Memo</Link>
                             </li>

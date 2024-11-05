@@ -13,7 +13,7 @@ const Footer = () => {
                         alt=""
                     />
                 </div>
-                <div className="">
+                <div className="font-groboldov ">
                     <p className="text-white text-[20px] mb-3">Follow us</p>
                     <div className="flex">
                         <a href="https://x.com/kai_ethereum">

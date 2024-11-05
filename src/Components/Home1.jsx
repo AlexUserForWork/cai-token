@@ -1,6 +1,14 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
-import Animation from '../assets/images/Animation.png';
+import Animation from '../assets/images/Animation.gif';
+// import cat from '../assets/images/cat.json';
+import cat from '../assets/images/cat.gif';
+import Lottie from 'lottie-react';
+
+const options = {
+   animationData: cat,
+   loop: true
+};
 
 function Home1() {
    useEffect(() => {
@@ -8,7 +16,7 @@ function Home1() {
    }, []);
 
    return (
-      <div className='w-full min-h-[100vh] flex flex-col'>
+      <div id='home' className='w-full min-h-[100vh] flex flex-col'>
          <div className='w-full bg-img min-h-[98vh] flex justify-center items-center md:px-20'>
             <div className='container mx-auto lg:flex-row flex-col flex items-center justify-between'>
                <img
@@ -17,16 +25,25 @@ function Home1() {
                   src='https://static.wixstatic.com/media/7f442f_3d203b36a6e54d6fa2a1a4211a2b617a~mv2.png/v1/fill/w_1142,h_1060,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Asset%2022_2x.png'
                   alt=''
                />
+               {/* <Lottie
+                  className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'
+                  animationData={cat}
+                  loop={true}
+               /> */}
+               {/* <img
+                  className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'
+                  src={cat}
+                  alt=''
+               /> */}
 
-               <img
+               {/* <img
                   className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'
                   src={Animation}
                   alt=''
-               />
-
+               /> */}
                <div
                   data-aos='fade-left'
-                  className='fixed top-[35%] right-[90px] flex-col gap-[10px] z-[999] hidden md:flex'
+                  className='fixed top-[35%] right-[40px] flex-col gap-[10px] z-[999] hidden md:flex'
                >
                   <a href='https://x.com/kai_ethereum'>
                      <img
