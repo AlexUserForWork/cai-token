@@ -16,19 +16,24 @@ function Home1() {
       AOS.init({ duration: 900 }); // Animatsiya davomiyligi (ms)
    }, []);
 
-   //    useEffect(() => {
-   //       const handleScroll = () => {
-   //          const scrollY = window.scrollY;
+   useEffect(() => {
+      const handleScroll = () => {
+         const scrollY = window.scrollY;
+         const innerWidth = window.innerWidth;
 
-   //          // Изменяем только вертикальное положение фона
-   //          document.querySelector('.bg-img').style.backgroundPosition = `center ${
-   //             scrollY * 0.1
-   //          }px`;
-   //       };
+         if (innerWidth >= 1600) {
+            const scaleFactor = 1 + scrollY * 0.002;
+            document.querySelector(
+               '.bg-img'
+            ).style.backgroundSize = `${Math.max(scaleFactor * 115, 100)}%`;
+         } else {
+            document.querySelector('.bg-img').style.backgroundSize = 'cover';
+         }
+      };
 
-   //       window.addEventListener('scroll', handleScroll);
-   //       return () => window.removeEventListener('scroll', handleScroll);
-   //    }, []);
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+   }, []);
 
    return (
       <div id='home' className='w-full min-h-[100vh] flex flex-col'>
