@@ -29,7 +29,7 @@ const Toke = () => {
                 <img
                     data-aos="fade-right"
                     src={Catmain2}
-                    className="absolute bottom-0 left-[-50px] hidden md:block"
+                    className="absolute bottom-0 left-[-0px] hidden md:block"
                     alt=""
                 />
                 <div className="flex flex-wrap justify-evenly py-10">
@@ -123,7 +123,7 @@ const Toke = () => {
                 <img
                     src={Catmain1}
                     data-aos="fade-left"
-                    className="absolute bottom-0 right-[-50px] hidden md:block"
+                    className="absolute bottom-0 right-[-0px] hidden md:block"
                     alt=""
                 />
                 <img

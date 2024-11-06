@@ -54,7 +54,7 @@ const Titles = () => {
                <div
                   className={`flex lg:w-1/2 items-end justify-end ${
                      shake ? 'shake' : ''
-                  } pt-2 lg:pt-10`}
+                  } pt-2 lg:pt-10 mb-[-30px] z-10`}
                >
                   <img src={Cat1} className='w-3/4 lg:w-1/2' alt='' />
                </div>
