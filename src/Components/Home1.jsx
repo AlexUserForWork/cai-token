@@ -72,7 +72,7 @@ function Home1() {
                   loop={true}
                /> */}
                <img
-                  className={`relative mt-0 lg:mt-24 md:w-1/2 w-full h-1/2 object-cover cai-shake `}
+                  className={`relative mr-0 lg:mr-[10%] mt-0 lg:mt-24 md:w-1/3 w-full h-1/2 object-cover cai-shake `}
                   src={cai1}
                   alt=''
                />
