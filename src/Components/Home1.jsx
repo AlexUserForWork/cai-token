@@ -99,8 +99,9 @@ function Home1() {
             </div>
          </div>
          <div className='w-full min-h-[150px] md:h-[160px] bg-btn'>
-            <div className='container px-20 mx-auto h-full py-[10px] flex md:flex-nowrap flex-wrap items-center justify-center gap-[20px]'>
-               {/* <button className="w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out">
+            <div className='container px-20 mx-auto h-full py-[10px] flex flex-col md:flex-nowrap flex-wrap items-center justify-center gap-[0px] font-groboldov'>
+               <div className='container px-20 mx-auto h-full py-[10px] flex md:flex-nowrap flex-wrap items-center justify-center gap-[20px] overflow-hidden '>
+                  {/* <button className="w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out">
                         <a href="https://app.uniswap.org/swap?outputCurrency=0xb4d9f54cdf26b3971a5b75dc27e36401ff4a8cc0">
                             <img
                                 className="w-full h-full duration-500"
@@ -109,36 +110,55 @@ function Home1() {
                             />
                         </a>
                     </button> */}
-               <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                  <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x86deb03f4c284a4439108856126aa1137f9077b7?t=1730297636084'>
+                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                     <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x86deb03f4c284a4439108856126aa1137f9077b7?t=1730297636084'>
+                        <img
+                           className='w-full h-full duration-500'
+                           src='https://static.wixstatic.com/media/7f442f_c76e4194f185461799612ffe652051a2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2026_2x.png'
+                           alt=''
+                        />
+                     </a>
+                  </button>
+                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
                      <img
                         className='w-full h-full duration-500'
-                        src='https://static.wixstatic.com/media/7f442f_c76e4194f185461799612ffe652051a2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2026_2x.png'
+                        src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
                         alt=''
                      />
-                  </a>
-               </button>
-               <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                  <img
-                     className='w-full h-full duration-500'
-                     src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
-                     alt=''
-                  />
-               </button>
-               <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                  <img
-                     className='w-full h-full duration-500'
-                     src='https://static.wixstatic.com/media/7f442f_ee84f1fd3f334bd28d985ed6e7b96ec2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2024_2x.png'
-                     alt=''
-                  />
-               </button>
-               <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                  <img
-                     className='w-full h-full duration-500'
-                     src='https://static.wixstatic.com/media/7f442f_7d4d657e1a524b2b8519f1a4b0939706~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2023_2x.png'
-                     alt=''
-                  />
-               </button>
+                  </button>
+                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                     <img
+                        className='w-full h-full duration-500'
+                        src='https://static.wixstatic.com/media/7f442f_ee84f1fd3f334bd28d985ed6e7b96ec2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2024_2x.png'
+                        alt=''
+                     />
+                  </button>
+                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                     <img
+                        className='w-full h-full duration-500'
+                        src='https://static.wixstatic.com/media/7f442f_7d4d657e1a524b2b8519f1a4b0939706~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2023_2x.png'
+                        alt=''
+                     />
+                  </button>
+               </div>
+               <div className=' text-[18px] text-green-100'>
+                  Contract:{' '}
+                  <span
+                     className='cursor-pointer'
+                     onClick={async () => {
+                        try {
+                           await navigator.clipboard.writeText(
+                              'yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'
+                           );
+                           console.log('Content copied to clipboard');
+                        } catch (err) {
+                           console.error('Failed to copy: ', err);
+                        }
+                     }}
+                  >
+                     yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump
+                  </span>
+               </div>
             </div>
          </div>
       </div>
