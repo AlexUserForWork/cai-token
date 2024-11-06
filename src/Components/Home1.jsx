@@ -16,9 +16,23 @@ function Home1() {
       AOS.init({ duration: 900 }); // Animatsiya davomiyligi (ms)
    }, []);
 
+   //    useEffect(() => {
+   //       const handleScroll = () => {
+   //          const scrollY = window.scrollY;
+
+   //          // Изменяем только вертикальное положение фона
+   //          document.querySelector('.bg-img').style.backgroundPosition = `center ${
+   //             scrollY * 0.1
+   //          }px`;
+   //       };
+
+   //       window.addEventListener('scroll', handleScroll);
+   //       return () => window.removeEventListener('scroll', handleScroll);
+   //    }, []);
+
    return (
       <div id='home' className='w-full min-h-[100vh] flex flex-col'>
-         <div className='w-full bg-img min-h-[98vh] flex justify-center items-center md:px-20'>
+         <div className='w-full bg-img min-h-[100vh] flex justify-center items-center md:px-20'>
             <div className='container mx-auto lg:flex-row flex-col flex items-center justify-between'>
                <img
                   data-aos='flip-up'

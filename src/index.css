@@ -36,9 +36,11 @@
    width: 100% !important;
    height: 100% !important;
    background-size: cover;
-
    background-repeat: no-repeat;
    background-image: url('https://static.wixstatic.com/media/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png/v1/fill/w_1680,h_794,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_14e3ec4f3d4b4aea98c17f3b1487818a~mv2.png');
+   background-attachment: fixed;
+   background-position: center;
+   transition: background-position 0.1s ease-out;
 }
 .big-section {
    width: 100% !important;
