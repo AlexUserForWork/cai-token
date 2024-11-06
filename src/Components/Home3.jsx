@@ -56,14 +56,14 @@ function Home3() {
                                 <div className="w-full flex gap-[20px]">
                                     <div className="w-[50%] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full  h-full md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full  h-full md:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_5721402a0ac84e1b8eceb8ddb18d05e1~mv2.png/v1/fill/w_1722,h_2435,q_90/7f442f_5721402a0ac84e1b8eceb8ddb18d05e1~mv2.webp"
                                             alt=""
                                         />
                                     </div>
-                                    <div className="w-[50%] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
+                                    <div className="w-[295px] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-full md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full object-cover h-full md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_5db50e7b73a4449188e65fd522f7daca~mv2.png/v1/fill/w_2435,h_1721,q_90/7f442f_5db50e7b73a4449188e65fd522f7daca~mv2.webp"
                                             alt=""
                                         />
@@ -74,14 +74,14 @@ function Home3() {
                                 <div className="flex gap-[20px]">
                                     <div className="w-[50%] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-auto md:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_06217cb89f9f48478b6e544c3495bdfe~mv2.png/v1/fill/w_2435,h_1721,q_90/7f442f_06217cb89f9f48478b6e544c3495bdfe~mv2.webp"
                                             alt=""
                                         />
                                     </div>
-                                    <div className="w-[50%] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
+                                    <div className="w-[295px] md:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full object-cover h-auto md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_983cebcf483b4cb5b00dce7f3b6a28ca~mv2.png/v1/fill/w_2435,h_1721,q_90/7f442f_983cebcf483b4cb5b00dce7f3b6a28ca~mv2.webp"
                                             alt=""
                                         />
@@ -89,7 +89,7 @@ function Home3() {
                                 </div>
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full md:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full md:h-[650px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_ed224f7bdb0a4adea40d388d01ec1399~mv2.png/v1/fill/w_1346,h_1346,q_90/7f442f_ed224f7bdb0a4adea40d388d01ec1399~mv2.webp"
                                         alt=""
                                     />
@@ -101,14 +101,14 @@ function Home3() {
                                 <div className="flex gap-[20px]">
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-[330px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_1dc4825b93784587b55d71faa207fb86~mv2.png/v1/fill/w_658,h_660,q_90/7f442f_1dc4825b93784587b55d71faa207fb86~mv2.webp"
                                             alt=""
                                         />
                                     </div>
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-[330px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_e8c32b30e8b442e9b2a22a3ad54e410e~mv2.png/v1/fill/w_660,h_660,q_90/7f442f_e8c32b30e8b442e9b2a22a3ad54e410e~mv2.webp"
                                             alt=""
                                         />
@@ -116,7 +116,7 @@ function Home3() {
                                 </div>
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full xl:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full xl:h-[650px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_4eed540d100345e98835fa3f345efcd2~mv2.png/v1/fill/w_1348,h_1348,q_90/7f442f_4eed540d100345e98835fa3f345efcd2~mv2.webp"
                                         alt=""
                                     />
@@ -125,7 +125,7 @@ function Home3() {
                             <div className="w-full xl:w-[50%] flex flex-col gap-[20px]">
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full xl:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full xl:h-[650px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_d7ed8abf47e54dc69398e4ec3c97ee8a~mv2.png/v1/fill/w_1346,h_1346,q_90/7f442f_d7ed8abf47e54dc69398e4ec3c97ee8a~mv2.webp"
                                         alt=""
                                     />
@@ -133,14 +133,14 @@ function Home3() {
                                 <div className="flex gap-[20px]">
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-[330px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_39bdedacf9284b8ab3d8a04a18a8cc83~mv2.png/v1/fill/w_658,h_658,q_90/7f442f_39bdedacf9284b8ab3d8a04a18a8cc83~mv2.webp"
                                             alt=""
                                         />
                                     </div>
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-[330px] object-cover  transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_d9f4db82ef3a43f3905c358257f240db~mv2.png/v1/fill/w_658,h_658,q_90/7f442f_d9f4db82ef3a43f3905c358257f240db~mv2.webp"
                                             alt=""
                                         />
@@ -152,7 +152,7 @@ function Home3() {
                             <div className="w-full xl:w-[50%] flex flex-col gap-[20px]">
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full xl:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full xl:h-[650px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_f8d3650c8ef74f21b64b05e779aa4dd3~mv2.png/v1/fill/w_1348,h_1348,q_90/7f442f_f8d3650c8ef74f21b64b05e779aa4dd3~mv2.webp"
                                         alt=""
                                     />
@@ -160,14 +160,14 @@ function Home3() {
                                 <div className="w-full flex gap-[20px]">
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto xl:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-auto xl:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_9f14fa20729e49c187ac62f2013fbabf~mv2.png/v1/fill/w_658,h_660,q_90/7f442f_9f14fa20729e49c187ac62f2013fbabf~mv2.webp"
                                             alt=""
                                         />
                                     </div>
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto xl:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-auto xl:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_eb5dd65e52d340fc8c3db9595b5ab276~mv2.png/v1/fill/w_660,h_660,q_90/7f442f_eb5dd65e52d340fc8c3db9595b5ab276~mv2.webp"
                                             alt=""
                                         />
@@ -178,14 +178,14 @@ function Home3() {
                                 <div className="flex gap-[20px]">
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto md:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-auto md:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_6225b58d8e5143f0baff5afec8291640~mv2.png/v1/fill/w_658,h_658,q_90/7f442f_6225b58d8e5143f0baff5afec8291640~mv2.webp"
                                             alt=""
                                         />
                                     </div>
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-auto xl:h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-auto xl:h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_92d70f75de3a4cf88297c4b94cb0ca35~mv2.png/v1/fill/w_658,h_658,q_90/7f442f_92d70f75de3a4cf88297c4b94cb0ca35~mv2.webp"
                                             alt=""
                                         />
@@ -193,7 +193,7 @@ function Home3() {
                                 </div>
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full xl:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full xl:h-[650px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_52934fa1c5394aa2a0ff2cc1fa523066~mv2.png/v1/fill/w_1346,h_1346,q_90/7f442f_52934fa1c5394aa2a0ff2cc1fa523066~mv2.webp"
                                         alt=""
                                     />
@@ -204,7 +204,7 @@ function Home3() {
                             <div className="w-full xl:w-[50%] flex flex-col gap-[20px]">
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full xl:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full xl:h-[650px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_d935cbb08470468a89f23a1fb0be8cb4~mv2.png/v1/fill/w_1348,h_1348,q_90/7f442f_d935cbb08470468a89f23a1fb0be8cb4~mv2.webp"
                                         alt=""
                                     />
@@ -212,7 +212,7 @@ function Home3() {
                                 <div className="flex gap-[20px]">
                                     <div className="w-[50%] xl:h-[329px] h-[140px] overflow-hidden rounded-[25px]">
                                         <img
-                                            className="w-full h-[330px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                            className="w-full h-[330px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                             src="https://static.wixstatic.com/media/7f442f_c7bba7b0461d40efbf46dad33e438bac~mv2.png/v1/fill/w_658,h_660,q_90/7f442f_c7bba7b0461d40efbf46dad33e438bac~mv2.webp"
                                             alt=""
                                         />
@@ -297,7 +297,7 @@ function Home3() {
                                 </div>
                                 <div className="overflow-hidden rounded-[25px]">
                                     <img
-                                        className="w-full md:h-[650px] transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
+                                        className="w-full md:h-[650px] object-cover transition-transform duration-500 hover:scale-[0.98] hover:brightness-90"
                                         src="https://static.wixstatic.com/media/7f442f_6a8890a8e2a04b818b6342861dedabd6~mv2.png/v1/fill/w_1346,h_1346,q_90/7f442f_6a8890a8e2a04b818b6342861dedabd6~mv2.webp"
                                         alt=""
                                     />

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import Animation from '../assets/images/Animation.gif';
-// import cat from '../assets/images/cat.json';
+import catjson from '../assets/images/cat_mainF.json';
 import cat from '../assets/images/Cai_1.png';
 import Lottie from 'lottie-react';
 import cai1 from '../assets/images/Comp 1_2.gif';
@@ -44,6 +44,17 @@ function Home1() {
       AOS.init({ duration: 900 }); // Animatsiya davomiyligi (ms)
    }, []);
 
+   const [shake, setShake] = useState(true);
+
+   useEffect(() => {
+      const interval = setInterval(() => {
+         setShake(true);
+         setTimeout(() => setShake(false), 600);
+      }, 4000); // Shake every 2 seconds
+
+      return () => clearInterval(interval); // Cleanup on unmount
+   }, []);
+
    return (
       <div id='home' className='w-full min-h-[100vh] flex flex-col'>
          <div className='w-full bg-img min-h-[100vh] flex justify-center items-center md:px-20'>
@@ -57,11 +68,11 @@ function Home1() {
                />
                {/* <Lottie
                   className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'
-                  animationData={cat}
+                  animationData={catjson}
                   loop={true}
                /> */}
                <img
-                  className='relative z-20 md:w-1/2  w-full h-1/2 object-cover'
+                  className={`relative mt-0 lg:mt-24 md:w-1/2 w-full h-1/2 object-cover cai-shake `}
                   src={cai1}
                   alt=''
                />

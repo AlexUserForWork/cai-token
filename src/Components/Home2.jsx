@@ -60,7 +60,7 @@ function Home2() {
                         src='https://static.wixstatic.com/media/7f442f_274eff8e04524b7dab3c98c2bd82af20~mv2.png/v1/fill/w_778,h_620,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Asset%2083_2x.png'
                         alt=''
                      />
-                     <Link to={'/memo'} className='md:block hidden'>
+                     <Link to={'/meme'} className='md:block hidden'>
                         <img
                            className='w-[283px] h-[93px] hover:scale-105'
                            src='https://static.wixstatic.com/media/7f442f_15ff181905834a878fe0ce5ecdb98096~mv2.png/v1/fill/w_568,h_186,al_c,lg_1,q_85,enc_auto/Asset%2082_2x.png'
@@ -70,7 +70,7 @@ function Home2() {
                   </div>
                </div>
 
-               <Link to={'/memo'} className='w-full md:hidden block mb-[120px]'>
+               <Link to={'/meme'} className='w-full md:hidden block mb-[120px]'>
                   <img
                      className='w-[283px] h-[93px]'
                      src='https://static.wixstatic.com/media/7f442f_15ff181905834a878fe0ce5ecdb98096~mv2.png/v1/fill/w_568,h_186,al_c,lg_1,q_85,enc_auto/Asset%2082_2x.png'

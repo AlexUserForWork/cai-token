@@ -55,12 +55,12 @@ const Navbar = () => {
                             </li> */}
                             <li
                                 className={` ${
-                                    currentUrl === "/memo"
+                                    currentUrl === "/meme"
                                         ? "border-[3px] rounded-[22px] border-black px-5 py-[3px] bg-[#d36b0abe] text-white"
                                         : "text-[#3A170D]"
                                 }  font-bold hover:text-green-400`}
                             >
-                                <Link to={"/memo"}>Memo</Link>
+                                <Link to={"/meme"}>Meme</Link>
                             </li>
                         </ul>
                     </div>
@@ -126,16 +126,16 @@ const Navbar = () => {
                                 </li>
                                 <li
                                     className={` ${
-                                        currentUrl === "/memo"
+                                        currentUrl === "/meme"
                                             ? "text-red-400 px-4 py-2"
                                             : "text-white px-4 py-2"
                                     }`}
                                 >
                                     <Link
-                                        to={"/memo"}
+                                        to={"/meme"}
                                         onClick={() => setMenuOpen(false)}
                                     >
-                                        Memo
+                                        Meme
                                     </Link>
                                 </li>
                             </ul>

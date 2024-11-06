@@ -96,12 +96,12 @@ const Main = () => {
                         Token
                      </ScrollLink>
                      <Link
-                        to={'/memo'}
+                        to={'/meme'}
                         smooth={true}
                         duration={500}
                         className='cursor-pointer font-bold text-[#3A170D] px-5 hover:text-green-400'
                      >
-                        Memo
+                        Meme
                      </Link>
                   </ul>
                </div>
@@ -179,11 +179,11 @@ const Main = () => {
                         </li>
                         <li className='text-white px-4 py-2'>
                            <Link
-                              to='/memo'
+                              to='/meme'
                               onClick={() => setMenuOpen(false)}
                               className='text-white cursor-pointer'
                            >
-                              Memo
+                              Meme
                            </Link>
                         </li>
                      </ul>

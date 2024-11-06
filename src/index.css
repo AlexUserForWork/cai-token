@@ -17,11 +17,11 @@
 }
 
 @font-face {
-    font-family: 'Groboldov';
-    src: url('./assets/fonts/Groboldov.otf') format('truetype');
-    font-weight: bold;
-    font-style: bold;
- }
+   font-family: 'Groboldov';
+   src: url('./assets/fonts/Groboldov.otf') format('truetype');
+   font-weight: bold;
+   font-style: bold;
+}
 
 * {
    box-sizing: border-box;
@@ -182,6 +182,22 @@
 
 .shake {
    animation: shake 0.6s ease-in-out; /* Adjust duration as needed */
+}
+
+@keyframes cai-shake {
+   0% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(-30px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+.cai-shake {
+   animation: cai-shake 4s ease-in-out infinite;
 }
 
 @keyframes infinite-rotate {

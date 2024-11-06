@@ -20,7 +20,7 @@ function App() {
       <Routes>
          <Route path='/' element={<Soon />}></Route>
          <Route path='/develop' element={<Main />} />
-         <Route path='/memo' element={<Home3 />} />
+         <Route path='/meme' element={<Home3 />} />
          <Route path='/carousel/:id' element={<MySwiper />} />
       </Routes>
    );
