@@ -47,7 +47,7 @@ const Main = () => {
                         smooth={true}
                         duration={500}
                         className={` ${
-                           currentUrl === '/'
+                           currentUrl === '/' || currentUrl === '/develop'
                               ? 'border-[3px] rounded-[22px] border-black px-5 py-[3px] text-white bg-[#d36b0abe]'
                               : 'text-[#3A170D]'
                         } cursor-pointer font-bold hover:text-green-400`}
