@@ -63,7 +63,7 @@ const Titles = () => {
                <div className='w-full lg:w-1/2'>
                   <div className='w-full backtitle1 min-h-[200px] flex flex-col justify-center items-start lg:py-10 px-10 md:px-20'>
                      <p className='text-[20px] md:text-[28px] font-bold text-[#299452]'>
-                        SET UP YOUR WALLET
+                        VISIT RAYDIUM
                      </p>
                      <p className='text-[14px] md:text-[20px] font-comic'>
                         Connect to Raydium. Go to raydium.io in Google Chrome or
