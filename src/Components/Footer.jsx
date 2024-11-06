@@ -25,12 +25,12 @@ const Footer = () => {
                         alt=''
                         onMouseOver={(e) =>
                            (e.currentTarget.src =
-                              'https://static.wixstatic.com/media/7f442f_1985512a49c94f348b8c0083e3f21b1e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2020_2x.png')
+                              'https://static.wixstatic.com/media/7f442f_444e6a63a191464bba34538194930b5c~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2017_2x.png')
                         }
                         onMouseOut={(e) => {
-                           e.currentTarget.style.transition =
-                              e.currentTarget.src =
-                                 'https://static.wixstatic.com/media/7f442f_444e6a63a191464bba34538194930b5c~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2017_2x.png';
+                           e.currentTarget.style.transition = 'transform 0.5s'; // 0.5 soniyalik sekinlik qo'shamiz
+                           e.currentTarget.src =
+                              'https://static.wixstatic.com/media/7f442f_1985512a49c94f348b8c0083e3f21b1e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2020_2x.png';
                         }}
                      />
                   </a>
@@ -41,12 +41,12 @@ const Footer = () => {
                         alt=''
                         onMouseOver={(e) =>
                            (e.currentTarget.src =
-                              'https://static.wixstatic.com/media/7f442f_93d9c59e46fd4ff0b51d8d805a160b5e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2019_2x.png')
+                              'https://static.wixstatic.com/media/7f442f_36ccbfec276f485f83f6e1886cad1357~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2016_2x.png')
                         }
                         onMouseOut={(e) => {
                            e.currentTarget.style.transition = 'transform 0.5s';
                            e.currentTarget.src =
-                              'https://static.wixstatic.com/media/7f442f_36ccbfec276f485f83f6e1886cad1357~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2016_2x.png';
+                              'https://static.wixstatic.com/media/7f442f_93d9c59e46fd4ff0b51d8d805a160b5e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2019_2x.png';
                         }}
                      />
                   </a>
@@ -57,12 +57,12 @@ const Footer = () => {
                         alt=''
                         onMouseOver={(e) =>
                            (e.currentTarget.src =
-                              'https://static.wixstatic.com/media/7f442f_b8d486202cd9423d8eaebabb3925f6c0~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2018_2x.png')
+                              'https://static.wixstatic.com/media/7f442f_0889479a745a45a1b5e2048b3f2498c3~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2015_2x.png')
                         }
                         onMouseOut={(e) => {
                            e.currentTarget.style.transition = 'transform 0.5s';
                            e.currentTarget.src =
-                              'https://static.wixstatic.com/media/7f442f_0889479a745a45a1b5e2048b3f2498c3~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2015_2x.png';
+                              'https://static.wixstatic.com/media/7f442f_b8d486202cd9423d8eaebabb3925f6c0~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2018_2x.png';
                         }}
                      />
                   </a>

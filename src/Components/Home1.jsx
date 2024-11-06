@@ -5,6 +5,9 @@ import catjson from '../assets/images/cat_mainF.json';
 import cat from '../assets/images/Cai_1.png';
 import Lottie from 'lottie-react';
 import cai1 from '../assets/images/Comp 1_2.gif';
+import raydium from '../assets/images/but_1.png';
+import button_2 from '../assets/images/but_2.png';
+import button_3 from '../assets/images/but_3.png';
 
 const options = {
    animationData: cat,
@@ -149,36 +152,53 @@ function Home1() {
                             />
                         </a>
                     </button> */}
-                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                  <button className='w-[200px] h-[88px] hover:scale-95 transition-transform duration-500 ease-in-out'>
                      <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
                         <img
-                           className='w-full h-full duration-500'
+                           className='w-full h-full object-cover duration-500'
                            src='https://static.wixstatic.com/media/7f442f_c76e4194f185461799612ffe652051a2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2026_2x.png'
                            alt=''
                         />
                      </a>
                   </button>
-                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                  <button className='w-[200px] h-[88px] hover:scale-95 transition-transform duration-500 ease-in-out'>
                      <a href='https://raydium.io/swap/?inputMint=sol&outputMint=yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
                         <img
-                           className='w-full h-full duration-500'
-                           src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
+                           className='w-full h-full object-cover duration-500'
+                           src={raydium}
+                           //    src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
                            alt=''
                         />
                      </a>
                   </button>
-                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
+                  <button className=' relative  h-auto group'>
                      <img
-                        className='w-full h-full duration-500'
                         src='https://static.wixstatic.com/media/7f442f_ee84f1fd3f334bd28d985ed6e7b96ec2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2024_2x.png'
                         alt=''
+                        className='cursor-pointer w-[200px] h-[88px] transition-opacity duration-500 group-hover:opacity-0'
                      />
-                  </button>
-                  <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
                      <img
-                        className='w-full h-full duration-500'
+                        src={button_2}
+                        alt=''
+                        className='cursor-default w-[190px] h-[84px] ml-1 mt-.5 absolute top-0 left-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100'
+                     />
+                     {/* <img
+                        className='w-full h-full object-cover duration-500'
+                        src='https://static.wixstatic.com/media/7f442f_ee84f1fd3f334bd28d985ed6e7b96ec2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2024_2x.png'
+                        alt=''
+                     /> */}
+                  </button>
+
+                  <button className=' relative  h-auto group'>
+                     <img
                         src='https://static.wixstatic.com/media/7f442f_7d4d657e1a524b2b8519f1a4b0939706~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2023_2x.png'
                         alt=''
+                        className='cursor-pointer w-[200px] h-[88px] transition-opacity duration-500 group-hover:opacity-0'
+                     />
+                     <img
+                        src={button_3}
+                        alt=''
+                        className='cursor-default w-[190px] h-[84px] ml-1 mt-.5 absolute top-0 left-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100'
                      />
                   </button>
                </div>

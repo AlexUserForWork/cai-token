@@ -69,8 +69,7 @@ const Titles = () => {
                         Connect to Raydium. Go to raydium.io in Google Chrome or
                         use the browser within your Phantom app. Connect your
                         wallet. Paste the $CAI token address into Raydium,
-                        select $CAI COIN, and confirm. When Phantom prompts you
-                        for a wallet signature, sign it.
+                        select $CAI COIN, and confirm.
                      </p>
                   </div>
                </div>
