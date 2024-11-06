@@ -86,13 +86,13 @@ const Titles = () => {
                <div className='py-5 lg:w-1/2'>
                   <div className='w-full backtitle1 min-h-[200px] flex flex-col justify-center items-start px-10 md:px-20'>
                      <p className='text-[20px] md:text-[28px] font-bold text-[#299452]'>
-                        SET UP YOUR WALLET
+                        SWAP SOL FOR $CAI
                      </p>
                      <p className='text-[14px] md:text-[20px] font-comic'>
-                        Download Phantom or your preferred wallet from the App
-                        Store or Google Play Store for free. Desktop users can
-                        download the Google Chrome extension by visiting
-                        phantom.app.
+                        Trade your SOL for $CAI. We have ZERO taxes, so you
+                        don’t need to worry about buying with a specific
+                        slippage, although you may need to use slippage during
+                        times of market volatility.
                      </p>
                   </div>
                </div>
