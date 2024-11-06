@@ -1,5 +1,4 @@
 {
-   "packageManager": "npm@10.3.0",
    "buildCommand": "npm run build",
    "outputDirectory": "dist",
    "cleanUrls": true
