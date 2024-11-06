@@ -127,8 +127,8 @@ function Home1() {
             </div>
          </div>
          <div className='w-full min-h-[150px] md:h-[250px] bg-btn'>
-            <div className='container px-20 mx-auto h-full py-[0px] flex flex-col md:flex-nowrap flex-wrap items-center justify-center gap-[0px] font-groboldov'>
-               <div className='container px-20 mx-auto h-full py-[0px] flex md:flex-nowrap flex-wrap items-center justify-center gap-[20px] overflow-hidden '>
+            <div className='container px-0 xl:px-20 mx-auto h-full py-[0px] flex flex-col md:flex-nowrap flex-wrap items-center justify-center gap-[0px] font-groboldov'>
+               <div className='container px-0 xl:px-20 mx-auto h-full py-10 lg:py-[0px] flex md:flex-nowrap flex-wrap items-center justify-center gap-[20px] overflow-hidden '>
                   {/* <button className="w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out">
                         <a href="https://app.uniswap.org/swap?outputCurrency=0xb4d9f54cdf26b3971a5b75dc27e36401ff4a8cc0">
                             <img
@@ -169,7 +169,7 @@ function Home1() {
                      />
                   </button>
                </div>
-               <div className='relative text-[24px] text-green-100 mb-8'>
+               <div className='relative text-[24px] text-green-100 mb-8 hidden lg:block'>
                   <div className='absolute inset-0 bg-black bg-opacity-50 backdrop-blur-lg rounded-lg transform scale-105'></div>
                   <p className='relative z-10'>
                      Contract:{' '}
