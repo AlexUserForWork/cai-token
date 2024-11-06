@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='font-groboldov '>
                <p className='text-white text-[20px] mb-3'>Follow us</p>
                <div className='flex'>
-                  <a href='https://x.com/kai_ethereum'>
+                  <a href='https://x.com/CAISolana'>
                      <img
                         className='w-[70px] h-[70px] hover:scale-90 transition-transform duration-500 cursor-pointer'
                         src='https://static.wixstatic.com/media/7f442f_1985512a49c94f348b8c0083e3f21b1e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2020_2x.png'
@@ -34,7 +34,7 @@ const Footer = () => {
                         }}
                      />
                   </a>
-                  <a href='https://t.me/kai_ethereum'>
+                  <a href='https://t.me/caisolana'>
                      <img
                         className='w-[70px] h-[70px] hover:scale-90 transition-transform duration-500 cursor-pointer'
                         src='https://static.wixstatic.com/media/7f442f_93d9c59e46fd4ff0b51d8d805a160b5e~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2019_2x.png'
@@ -50,7 +50,7 @@ const Footer = () => {
                         }}
                      />
                   </a>
-                  <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x86deb03f4c284a4439108856126aa1137f9077b7?t=1730297476609'>
+                  <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
                      <img
                         className='w-[70px] h-[70px] hover:scale-90 transition-transform duration-500 cursor-pointer'
                         src='https://static.wixstatic.com/media/7f442f_b8d486202cd9423d8eaebabb3925f6c0~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2018_2x.png'
