@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import Animation from '../assets/images/Animation.gif';
 // import cat from '../assets/images/cat.json';
@@ -12,14 +12,19 @@ const options = {
 };
 
 function Home1() {
+   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+
    useEffect(() => {
-      AOS.init({ duration: 900 }); // Animatsiya davomiyligi (ms)
+      const handleResize = () => setInnerWidth(window.innerWidth);
+
+      window.addEventListener('resize', handleResize);
+
+      return () => window.removeEventListener('resize', handleResize);
    }, []);
 
    useEffect(() => {
       const handleScroll = () => {
          const scrollY = window.scrollY;
-         const innerWidth = window.innerWidth;
 
          if (innerWidth >= 1600) {
             const scaleFactor = 1 + scrollY * 0.002;
@@ -33,6 +38,10 @@ function Home1() {
 
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
+   }, [innerWidth]);
+
+   useEffect(() => {
+      AOS.init({ duration: 900 }); // Animatsiya davomiyligi (ms)
    }, []);
 
    return (
