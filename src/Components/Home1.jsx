@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import Animation from '../assets/images/Animation.gif';
 // import cat from '../assets/images/cat.json';
-import cat from '../assets/images/cat.gif';
+import cat from '../assets/images/Cai_1.png';
 import Lottie from 'lottie-react';
-import cai1 from '../assets/images/Cai_1.png';
+import cai1 from '../assets/images/Comp 1_2.gif';
 
 const options = {
    animationData: cat,
@@ -23,7 +23,7 @@ function Home1() {
                <img
                   data-aos='flip-up'
                   className='md:w-1/2 md:h-[530px] w-[400px] h-[400px] object-contain'
-                  src={cai1}
+                  src={cat}
                   //   src='https://static.wixstatic.com/media/7f442f_3d203b36a6e54d6fa2a1a4211a2b617a~mv2.png/v1/fill/w_1142,h_1060,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Asset%2022_2x.png'
                   alt=''
                />
@@ -32,11 +32,11 @@ function Home1() {
                   animationData={cat}
                   loop={true}
                /> */}
-               {/* <img
-                  className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'
-                  src={cat}
+               <img
+                  className='relative z-20 md:w-1/2  w-full h-1/2 object-cover'
+                  src={cai1}
                   alt=''
-               /> */}
+               />
 
                {/* <img
                   className='md:w-1/2 md:h-[530px] w-full h-1/2 object-cover'

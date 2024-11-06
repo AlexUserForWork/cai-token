@@ -43,11 +43,11 @@ const Titles = () => {
                      <p className='text-[20px] md:text-[28px] font-bold text-[#299452]'>
                         SET UP YOUR WALLET
                      </p>
-                     <p className='text-[14px] md:text-[20px]'>
-                        Download MetaMask or your preferred wallet from the App
+                     <p className='text-[14px] md:text-[20px] font-comic'>
+                        Download Phantom or your preferred wallet from the App
                         Store or Google Play Store for free. Desktop users can
                         download the Google Chrome extension by visiting
-                        metamask.io.
+                        phantom.app.
                      </p>
                   </div>
                </div>
@@ -65,7 +65,7 @@ const Titles = () => {
                      <p className='text-[20px] md:text-[28px] font-bold text-[#299452]'>
                         SET UP YOUR WALLET
                      </p>
-                     <p className='text-[14px] md:text-[20px]'>
+                     <p className='text-[14px] md:text-[20px] font-comic'>
                         Connect to Raydium. Go to raydium.io in Google Chrome or
                         use the browser within your Phantom app. Connect your
                         wallet. Paste the $CAI token address into Raydium,
@@ -88,7 +88,7 @@ const Titles = () => {
                      <p className='text-[20px] md:text-[28px] font-bold text-[#299452]'>
                         SET UP YOUR WALLET
                      </p>
-                     <p className='text-[14px] md:text-[20px]'>
+                     <p className='text-[14px] md:text-[20px] font-comic'>
                         Download Phantom or your preferred wallet from the App
                         Store or Google Play Store for free. Desktop users can
                         download the Google Chrome extension by visiting

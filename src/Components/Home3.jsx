@@ -3,6 +3,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import cai from '../assets/images/Cai_6.png';
 
 function Home3() {
     useEffect(() => {
@@ -26,7 +27,8 @@ function Home3() {
                         >
                             <img
                                 className="w-[64px] h-[45px] md:w-[175px] md:h-[122px]"
-                                src="https://static.wixstatic.com/media/7f442f_3280aaed0d20445d8665bbbbbe4ec423~mv2.png/v1/fill/w_350,h_246,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2098_2x.png"
+                                src={cai}
+                                // src="https://static.wixstatic.com/media/7f442f_3280aaed0d20445d8665bbbbbe4ec423~mv2.png/v1/fill/w_350,h_246,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2098_2x.png"
                                 alt=""
                             />
                             <img
