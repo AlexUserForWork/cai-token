@@ -178,15 +178,13 @@ const Main = () => {
                            </ScrollLink>
                         </li>
                         <li className='text-white px-4 py-2'>
-                           <ScrollLink
-                              to='memo'
-                              smooth={true}
-                              duration={500}
+                           <Link
+                              to='/memo'
                               onClick={() => setMenuOpen(false)}
-                              className='cursor-pointer'
+                              className='text-white cursor-pointer'
                            >
                               Memo
-                           </ScrollLink>
+                           </Link>
                         </li>
                      </ul>
                   </div>

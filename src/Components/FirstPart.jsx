@@ -43,7 +43,7 @@ const FirstPart = () => {
                         Let’s send CAI into orbit.
                      </p>
                      <a
-                        href='https://raydium.io/swap/?inputMint=sol&outputMint=yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'
+                        href='https://x.com/CAISolana'
                         className='cursor-pointer relative w-[250px] h-auto group'
                      >
                         <img

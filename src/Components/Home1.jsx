@@ -148,11 +148,13 @@ function Home1() {
                      </a>
                   </button>
                   <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                     <img
-                        className='w-full h-full duration-500'
-                        src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
-                        alt=''
-                     />
+                     <a href='https://raydium.io/swap/?inputMint=sol&outputMint=yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
+                        <img
+                           className='w-full h-full duration-500'
+                           src='https://static.wixstatic.com/media/7f442f_c9796cd57f104f7c8a77be3067847374~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2025_2x.png'
+                           alt=''
+                        />
+                     </a>
                   </button>
                   <button className='w-[200px] h-[80px] hover:scale-95 transition-transform duration-500 ease-in-out'>
                      <img
