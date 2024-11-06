@@ -18,28 +18,45 @@ import Titles from './Titles';
 import { Link, useLocation } from 'react-router-dom';
 
 const Main = () => {
-   const [scroll, setScroll] = useState(false);
    const [menuOpen, setMenuOpen] = useState(false); // Mobile menu state
    const url = useLocation();
    const [currentUrl, setCurrentUrl] = useState(url.pathname);
 
+   const [showHeader, setShowHeader] = useState(true);
+   const [lastScrollY, setLastScrollY] = useState(0);
+
    useEffect(() => {
       const handleScroll = () => {
-         setScroll(window.scrollY > 20);
+         const currentScrollY = window.scrollY;
+         console.log('currentScrollY', currentScrollY);
+         if (currentScrollY < 40) {
+            setShowHeader(true);
+         } else if (currentScrollY < lastScrollY) {
+            setShowHeader(true);
+         } else {
+            setShowHeader(false);
+         }
+
+         setLastScrollY(currentScrollY);
       };
+
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
-   }, []);
+   }, [lastScrollY]);
 
    return (
       <div className='relative'>
          {/* Desktop Navbar */}
          <div
             className={`w-full hidden md:block h-[100px] fixed z-[999] ${
-               scroll ? 'custom-background' : 'bg-transparent'
-            } transition-all duration-300`}
+               showHeader ? 'opacity-100 bg-transparent' : 'opacity-0'
+            } transition-all duration-500`}
          >
-            <div className='container flex h-full font-groboldov '>
+            <div
+               className={`container flex h-full font-groboldov ${
+                  showHeader ? 'opacity-100 bg-transparent' : 'opacity-0'
+               } transition-all duration-500`}
+            >
                <div className='w-full h-full flex justify-end'>
                   <ul className='w-full h-full flex justify-end gap-6 items-center text-[20px] pr-4'>
                      <ScrollLink
