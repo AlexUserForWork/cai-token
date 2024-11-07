@@ -121,7 +121,7 @@ function Home1() {
                         }}
                      />
                   </a>
-                  <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
+                  <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump?t=1730987968881'>
                      <img
                         className='w-[72px] h-[72px] hover:scale-90 transition-transform duration-500 cursor-pointer'
                         src='https://static.wixstatic.com/media/7f442f_b8d486202cd9423d8eaebabb3925f6c0~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2018_2x.png'
@@ -153,7 +153,7 @@ function Home1() {
                         </a>
                     </button> */}
                   <button className='w-[200px] h-[88px] hover:scale-95 transition-transform duration-500 ease-in-out'>
-                     <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump'>
+                     <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump?t=1730987968881'>
                         <img
                            className='w-full h-full object-cover duration-500'
                            src='https://static.wixstatic.com/media/7f442f_c76e4194f185461799612ffe652051a2~mv2.png/v1/fill/w_458,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2026_2x.png'
