@@ -50,7 +50,7 @@ const Footer = () => {
                         }}
                      />
                   </a>
-                  <a href='https://www.dextools.io/app/en/solana/pair-explorer/yDMFk8krUQNwnTpXkg49Lh86vDQLQBKs1L56ahEpump?t=1730987968881'>
+                  <a href='https://www.dextools.io/app/en/solana/pair-explorer/EUMHiBzPnoXq9un5e8LvmPAxARhYZ7kcVm7NDWXzusDt'>
                      <img
                         className='w-[70px] h-[70px] hover:scale-90 transition-transform duration-500 cursor-pointer'
                         src='https://static.wixstatic.com/media/7f442f_b8d486202cd9423d8eaebabb3925f6c0~mv2.png/v1/fill/w_146,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%2018_2x.png'
