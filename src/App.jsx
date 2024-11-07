@@ -18,8 +18,8 @@ function App() {
    }, []);
    return (
       <Routes>
-         <Route path='/' element={<Soon />}></Route>
-         <Route path='/develop' element={<Main />} />
+         <Route path='/' element={<Main />} />
+         <Route path='/develop' element={<Soon />}></Route>
          <Route path='/meme' element={<Home3 />} />
          <Route path='/carousel/:id' element={<MySwiper />} />
       </Routes>
